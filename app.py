@@ -9,9 +9,9 @@ app.secret_key = 'many random bytes'
 #  READ MYSQL SETTINGS FROM ENVIRONMENT VARIABLES
 app.config['MYSQL_HOST'] = os.environ.get("shuttle.proxy.rlwy.net")
 app.config['MYSQL_USER'] = os.environ.get("root")
-app.config['MYSQL_PASSWORD'] = os.environ.get("asdf1234")
-app.config['MYSQL_DB'] = os.environ.get("MYSQL_DB")
-app.config['MYSQL_PORT'] = int(os.environ.get("MYSQL_PORT", 3306))
+app.config['MYSQL_PASSWORD'] = os.environ.get("FJLNdOJFEBYWAEUvuSWQIuOtxipsiBbI")
+app.config['MYSQL_DB'] = os.environ.get("railway")
+app.config['MYSQL_PORT'] = int(os.environ.get("37533", 3306))
 
 mysql = MySQL(app)
 
